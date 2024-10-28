@@ -1765,3 +1765,6 @@ Q.idea/sonarlint/securityhotspotstore/f/4/f4bdf42b9f41e1fb95b8c928635d684a832142
 Q.idea/sonarlint/securityhotspotstore/d/e/dee2f5e1f66f6a5809cdae8d95a5c7413759211f,7/a/7a10f1660a8f8249fd744ab1edd09d65931d80ed
 Å
 Q.idea/sonarlint/securityhotspotstore/c/7/c7edf2fd17d201a7351a8a9fd71cd02836d70627,e/6/e649f07b64c8255aafc393d36c306e52ed249d99
+:
+
+.gitignore,a/5/a5cc2925ca8258af241be7e5b0381edf30266302
