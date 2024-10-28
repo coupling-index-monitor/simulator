@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="service-d" />
+        <module name="service-e" />
+        <module name="service-f" />
+        <module name="service-g" />
+        <module name="service-a" />
+        <module name="service-b" />
+        <module name="service-c" />
+        <module name="service-h" />
+        <module name="service-i" />
+        <module name="service-j" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="jaeger-client" target="21" />
+      <module name="jaeger-server" target="21" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="jaeger-client" options="-parameters" />
+      <module name="jaeger-server" options="-parameters" />
+      <module name="service-a" options="-parameters" />
+      <module name="service-b" options="-parameters" />
+      <module name="service-c" options="-parameters" />
+      <module name="service-d" options="-parameters" />
+      <module name="service-e" options="-parameters" />
+      <module name="service-f" options="-parameters" />
+      <module name="service-g" options="-parameters" />
+      <module name="service-h" options="-parameters" />
+      <module name="service-i" options="-parameters" />
+      <module name="service-j" options="-parameters" />
+    </option>
+  </component>
+</project>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/service-a/pom.xml" />
+        <option value="$PROJECT_DIR$/service-b/pom.xml" />
+        <option value="$PROJECT_DIR$/jaeger-client/pom.xml" />
+        <option value="$PROJECT_DIR$/jaeger-server/pom.xml" />
+        <option value="$PROJECT_DIR$/service-c/pom.xml" />
+        <option value="$PROJECT_DIR$/service-d/pom.xml" />
+        <option value="$PROJECT_DIR$/service-f/pom.xml" />
+        <option value="$PROJECT_DIR$/service-e/pom.xml" />
+        <option value="$PROJECT_DIR$/service-g/pom.xml" />
+        <option value="$PROJECT_DIR$/service-i/pom.xml" />
+        <option value="$PROJECT_DIR$/service-j/pom.xml" />
+        <option value="$PROJECT_DIR$/service-h/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/jaeger-client/pom.xml" />
+        <option value="$PROJECT_DIR$/jaeger-server/pom.xml" />
+      </set>
+    </option>
+    <option name="workspaceImportForciblyTurnedOn" value="true" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_21" default="true" project-jdk-name="corretto-21" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
