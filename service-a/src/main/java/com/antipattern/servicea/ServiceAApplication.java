@@ -20,7 +20,6 @@ public class ServiceAApplication {
         return builder.build();
     }
 
-
     @Bean
     public OtlpGrpcSpanExporter otlpHttpSpanExporter(@Value("${tracing.url}") String url) {
         return OtlpGrpcSpanExporter.builder().setEndpoint(url).build();

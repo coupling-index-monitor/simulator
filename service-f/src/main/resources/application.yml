@@ -1,0 +1,26 @@
+spring:
+  application:
+    name: service-f
+
+server:
+  port: 9095
+
+management:
+  endpoint:
+    health:
+      group:
+        liveness:
+          include: ping, diskSpace
+  probes:
+    enabled: true
+  tracing:
+    sampling:
+      probability: 1.0
+
+
+logging:
+  level:
+    org.springframework.web: INFO
+
+tracing:
+  url: http://localhost:4317
