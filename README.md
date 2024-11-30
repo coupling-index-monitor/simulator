@@ -13,3 +13,6 @@ https://medium.com/cloud-native-daily/how-to-send-traces-from-spring-boot-to-jae
 | Service-H  | (No dependencies)            |
 | Service-I  | (No dependencies)            |
 | Service-J  | Service-C                    |
+
+# Run RabbitMQ using Docker
+```docker run --rm -it -p 15672:15672 -p 5672:5672 rabbitmq:3.12-management```
