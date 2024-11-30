@@ -16,3 +16,6 @@ https://medium.com/cloud-native-daily/how-to-send-traces-from-spring-boot-to-jae
 
 # Run RabbitMQ using Docker
 ```docker run --rm -it -p 15672:15672 -p 5672:5672 rabbitmq:3.12-management```
+
+# Run Jaeger
+```docker-compose up -d```
