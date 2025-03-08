@@ -1,6 +1,5 @@
 version: '3.7'
 services:
-
   jaeger:
     image: jaegertracing/all-in-one:latest
     ports:
@@ -9,3 +8,123 @@ services:
     environment:
       - COLLECTOR_OTLP_ENABLED=true
       - LOG_LEVEL=debug
+
+  service-a:
+    build: ./service-a
+    image: shabinaa/service-a:latest
+    ports:
+      - "8080:8080"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: '384M'
+    restart: unless-stopped
+
+  service-b:
+    build: ./service-b
+    image: shabinaa/service-b:latest
+    ports:
+      - "8081:8081"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: '384M'
+    restart: unless-stopped
+
+  service-c:
+    build: ./service-c
+    image: shabinaa/service-c:latest
+    ports:
+      - "8082:8082"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: '384M'
+    restart: unless-stopped
+
+  service-d:
+    build: ./service-d
+    image: shabinaa/service-d:latest
+    ports:
+      - "8083:8083"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: '384M'
+    restart: unless-stopped
+
+  service-e:
+    build: ./service-e
+    image: shabinaa/service-e:latest
+    ports:
+      - "8084:8084"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: '384M'
+    restart: unless-stopped
+
+  service-f:
+    build: ./service-f
+    image: shabinaa/service-f:latest
+    ports:
+      - "8085:8085"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: '384M'
+    restart: unless-stopped
+
+  service-g:
+    build: ./service-g
+    image: shabinaa/service-g:latest
+    ports:
+      - "8086:8086"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: '384M'
+    restart: unless-stopped
+
+  service-h:
+    build: ./service-h
+    image: shabinaa/service-h:latest
+    ports:
+      - "8087:8087"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: '384M'
+    restart: unless-stopped
+
+  service-i:
+    build: ./service-i
+    image: shabinaa/service-i:latest
+    ports:
+      - "8088:8088"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: '384M'
+    restart: unless-stopped
+
+  service-j:
+    build: ./service-j
+    image: shabinaa/service-j:latest
+    ports:
+      - "8089:8089"
+    deploy:
+      resources:
+        limits:
+          cpus: '0.5'
+          memory: '384M'
+    restart: unless-stopped

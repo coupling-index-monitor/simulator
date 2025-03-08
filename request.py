@@ -4,20 +4,20 @@ from datetime import datetime
 import threading
 
 curl_commands = [
-    "curl -X GET http://localhost:9090/service-a/path1",
-    "curl -X GET http://localhost:9091/service-b/path1",
-    "curl -X GET http://localhost:9091/service-b/path2",
-    "curl -X GET http://localhost:9092/service-c/path1",
-    "curl -X GET http://localhost:9092/service-c/path2",
-    "curl -X GET http://localhost:9093/service-d/path1",
-    "curl -X GET http://localhost:9093/service-d/path2",
-    "curl -X GET http://localhost:9094/service-e/path1",
-    "curl -X GET http://localhost:9094/service-e/path2",
-    "curl -X GET http://localhost:9095/service-f/path1",
-    "curl -X GET http://localhost:9096/service-g/path1",
-    "curl -X GET http://localhost:9097/service-h/path1",
-    "curl -X GET http://localhost:9098/service-i/path1",
-    "curl -X GET http://localhost:9099/service-j/path1"
+    "curl -X GET http://localhost:8080/service-a/path1",
+    "curl -X GET http://localhost:8081/service-b/path1",
+    "curl -X GET http://localhost:8081/service-b/path2",
+    "curl -X GET http://localhost:8082/service-c/path1",
+    "curl -X GET http://localhost:8082/service-c/path2",
+    "curl -X GET http://localhost:8083/service-d/path1",
+    "curl -X GET http://localhost:8083/service-d/path2",
+    "curl -X GET http://localhost:8084/service-e/path1",
+    "curl -X GET http://localhost:8084/service-e/path2",
+    "curl -X GET http://localhost:8085/service-f/path1",
+    "curl -X GET http://localhost:8086/service-g/path1",
+    "curl -X GET http://localhost:8087/service-h/path1",
+    "curl -X GET http://localhost:8088/service-i/path1",
+    "curl -X GET http://localhost:8089/service-j/path1"
 ]
 
 intervals = [10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80]
