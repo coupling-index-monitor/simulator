@@ -4,7 +4,7 @@ from datetime import datetime
 import threading
 
 curl_commands = [
-    "curl -X GET http://167.172.83.56:9090/service-a/path1",
+    "curl -X GET https://167.172.83.56:9090/service-a/path1",
     "curl -X GET http://167.172.83.56:9091/service-b/path1",
     "curl -X GET http://167.172.83.56:9091/service-b/path2",
     "curl -X GET http://167.172.83.56:9092/service-c/path1",
