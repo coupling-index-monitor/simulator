@@ -17,7 +17,7 @@ WORKDIR /app
 COPY --from=build /app/target/service-h-0.0.1-SNAPSHOT.jar app.jar
 
 # Expose the application port
-EXPOSE 8080
+EXPOSE 9097
 
 # Run the application
 ENTRYPOINT ["java", "-jar", "app.jar"]
