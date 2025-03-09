@@ -24,7 +24,7 @@ public class Controller {
     public ResponseEntity<String> path1() {
         logger.info("path1: execution started");
 
-        String response = restTemplate.getForObject("http://localhost:9094/service-e/path1", String.class);
+        String response = restTemplate.getForObject("http://service-e:9094/service-e/path1", String.class);
 
         logger.info("path1: execution ended");
         return ResponseEntity.ok("response from /service-b/path1: " + response);

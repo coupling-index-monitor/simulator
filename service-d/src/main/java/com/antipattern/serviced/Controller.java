@@ -26,7 +26,7 @@ public class Controller {
     public ResponseEntity<String> path1() {
         logger.info("path1: execution started");
 
-        String response = restTemplate.getForObject("http://localhost:9091/service-b/path3", String.class);
+        String response = restTemplate.getForObject("http://service-b:9091/service-b/path3", String.class);
 
         logger.info("path1: execution ended");
         return ResponseEntity.ok("response from /service-a/path1: " + response);
@@ -37,11 +37,11 @@ public class Controller {
         logger.info("path2: execution started");
 
         CompletableFuture<String> response1Future = CompletableFuture.supplyAsync(() ->
-                restTemplate.getForObject("http://localhost:9097/service-h/path1", String.class)
+                restTemplate.getForObject("http://service-h:9097/service-h/path1", String.class)
         );
 
         CompletableFuture<String> response2Future = CompletableFuture.supplyAsync(() ->
-                restTemplate.getForObject("http://localhost:9098/service-i/path1", String.class)
+                restTemplate.getForObject("http://service-i:9098/service-i/path1", String.class)
         );
 
         CompletableFuture<Void> allOf = CompletableFuture.allOf(response1Future, response2Future);
